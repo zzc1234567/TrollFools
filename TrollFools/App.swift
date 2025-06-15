@@ -96,18 +96,18 @@ extension App {
                 name: NSLocalizedString("TrollRecorder", comment: ""),
                 type: "System",
                 teamID: "GXZ23M5TP2",
-                url: URL(string: "https://havoc.app/package/trollrecorder")!,
+                url: URL(string: "https://havoc.app/package/trollrecorde")!,
                 alternateIcon: .init(named: "tricon-default"),
-                isAdvertisement: true
+                isAdvertisement: false
             ),
             App(
                 id: NSLocalizedString("Bringing back the most advanced system and security analysis tool.", comment: ""),
                 name: NSLocalizedString("Reveil", comment: ""),
                 type: "System",
                 teamID: "GXZ23M5TP2",
-                url: URL(string: "https://havoc.app/package/reveil")!,
+                url: URL(string: "https://havoc.app/package/revei")!,
                 alternateIcon: .init(named: "reveil-default"),
-                isAdvertisement: true
+                isAdvertisement: false
             ),
         ].randomElement()!
     }()
